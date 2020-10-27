@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iBookDetail_llMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorScreenBackground"
+    android:paddingBottom="6dp">
+
+    <LinearLayout
+        android:id="@+id/r"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_standard"
+        android:layout_marginEnd="@dimen/spacing_standard"
+        android:orientation="vertical">
+        <View
+            android:layout_width="@dimen/_135sdp"
+            android:layout_height="@dimen/_145sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:background="@color/demo_light_transparent" />
+        <View
+            android:id="@+id/book_name"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/spacing_control"
+            android:background="@color/demo_light_transparent"
+            android:gravity="start"
+            android:maxLines="1"
+            android:paddingStart="@dimen/spacing_standard"
+            android:paddingEnd="@dimen/spacing_standard"
+            android:singleLine="true"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/spacing_control"
+            android:background="@color/demo_light_transparent"
+            android:gravity="start"
+            android:maxLines="1"
+            android:paddingStart="@dimen/spacing_standard"
+            android:paddingEnd="@dimen/spacing_standard"
+            android:singleLine="true"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/spacing_control"
+            android:background="@color/demo_light_transparent"
+            android:gravity="start"
+            android:maxLines="1"
+            android:paddingStart="@dimen/spacing_standard"
+            android:paddingEnd="@dimen/spacing_standard"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/spacing_control"
+            android:background="@color/textColorSecondary"
+            android:gravity="start"
+            android:maxLines="1"
+            android:paddingStart="@dimen/spacing_standard"
+            android:paddingEnd="@dimen/spacing_standard"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>
